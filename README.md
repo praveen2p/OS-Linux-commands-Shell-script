@@ -179,11 +179,13 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![Screenshot from 2024-09-03 09-24-56](https://github.com/user-attachments/assets/ddd0ec30-fdfb-4dec-a2bd-b8462638dcd9)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![Screenshot from 2024-09-03 09-26-45](https://github.com/user-attachments/assets/6f20ad6d-7c09-4b6e-8467-5b51537c57f4)
 
 
 

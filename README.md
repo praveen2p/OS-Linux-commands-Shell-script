@@ -262,79 +262,95 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![Screenshot from 2024-09-11 21-09-47](https://github.com/user-attachments/assets/097771be-30cb-48b3-a357-34f5daf6dad9)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![Screenshot from 2024-09-11 21-10-48](https://github.com/user-attachments/assets/ca972f03-2697-4b1c-9433-51bff3a02c25)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![Screenshot from 2024-09-11 21-11-42](https://github.com/user-attachments/assets/604b431f-3bb0-40da-94b4-9ce58c34c270)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![Screenshot from 2024-09-11 21-12-11](https://github.com/user-attachments/assets/f29e67e4-dc62-477c-97c3-503a67b5a608)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![Screenshot from 2024-09-11 21-12-53](https://github.com/user-attachments/assets/70c8b8b6-c762-4fc7-82ba-7ae125f962a5)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![Screenshot from 2024-09-11 21-13-34](https://github.com/user-attachments/assets/530d4600-bfb1-44b8-831f-492e17360018)
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot from 2024-09-11 21-14-08](https://github.com/user-attachments/assets/6743bed6-a311-4d6d-b3bc-8ff62b7461d7)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot from 2024-09-11 21-14-42](https://github.com/user-attachments/assets/7a47be3a-e7eb-4a4e-8fd3-31c93433cb19)
 
 
 seq 10 
 ## OUTPUT
 
+![Screenshot from 2024-09-11 21-15-32](https://github.com/user-attachments/assets/b3b8fdeb-92d6-4c42-a4e9-dc3fbf314eb4)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![Screenshot from 2024-09-11 21-17-16](https://github.com/user-attachments/assets/133fb48f-48c0-4a35-9a23-c9b0dfdc1db6)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+![Screenshot from 2024-09-11 21-17-45](https://github.com/user-attachments/assets/45f1539d-425d-4eb2-928d-424b638a8bf2)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![Screenshot from 2024-09-11 21-18-32](https://github.com/user-attachments/assets/a1086c6d-7c6a-47dd-ab99-acf7878a77e4)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![Screenshot from 2024-09-11 21-19-00](https://github.com/user-attachments/assets/fd494e69-feb2-4a60-9df7-bd5a49f5ffc1)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![Screenshot from 2024-09-11 21-19-35](https://github.com/user-attachments/assets/7249090c-4ab6-4e37-b80f-6c132a6c0faf)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![Screenshot from 2024-09-11 21-20-17](https://github.com/user-attachments/assets/aabd39ed-2e2a-4bd2-9428-1110a1424808)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+![Screenshot from 2024-09-11 21-20-39](https://github.com/user-attachments/assets/a529a281-8b31-4878-8046-c31c80b08c34)
 
 
 #Sorting File content
@@ -348,6 +364,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![Screenshot from 2024-09-11 21-21-42](https://github.com/user-attachments/assets/facf374a-03ff-465d-abc8-3ecb15514819)
 
 
 cat > file22
@@ -362,12 +379,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![Screenshot from 2024-09-11 21-22-42](https://github.com/user-attachments/assets/07319960-703a-42d1-bb96-65dbecf3da85)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Screenshot from 2024-09-11 21-23-36](https://github.com/user-attachments/assets/fa106289-2ab7-45d7-961d-c59cfd664e80)
 
 cat < urllist.txt
 ```
@@ -384,12 +403,14 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![Screenshot from 2024-09-11 21-25-35](https://github.com/user-attachments/assets/30a31cdb-1ffc-48c7-a2dc-de4214d8cbeb)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![Screenshot from 2024-09-11 21-26-08](https://github.com/user-attachments/assets/e596ae52-228d-4941-98c8-a3d711f423d7)
 
 
 #Backup commands

@@ -426,7 +426,7 @@ tar -tvf backup.tar
 ## OUTPUT
 
 
-tar -xvf backup.tar
+tar -xvf backup.tar  
 ## OUTPUT
 
 gzip backup.tar

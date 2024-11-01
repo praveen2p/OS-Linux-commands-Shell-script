@@ -1,4 +1,7 @@
-# OS-Linux-commands-Shell-scripting
+#### NAME:PRAVEEN.K
+#### REG NO: 212223040152
+
+#  EX 01 - OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
